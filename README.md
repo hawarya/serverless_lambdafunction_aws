@@ -41,6 +41,15 @@ POST /shorten ──→ shorten-url Lambda ──→ DynamoDB
 GET /{shortId} ─→ redirect-url Lambda ─→ DynamoDB
 
 
+---
+
+# 📸 Project Screenshots
+
+## API Gateway Overview
+
+![API Gateway](images/gatewayapi.png)
+
+---
 
 ## API Gateway Routes
 
@@ -66,18 +75,14 @@ GET /{shortId} ─→ redirect-url Lambda ─→ DynamoDB
 
 ---
 
+## URL Shortener Lambda Function
+
+![Shorten Lambda](images/lambda_serverless_url.png)
+
+---
+
 ## Redirect Lambda Function
 
 ![Redirect Lambda](images/lambda_redirect_function.png)
 
 ---
-
-## URL Shortener Lambda
-
-![URL Shortener Lambda](images/lambda_serverless_url.png)
-
----
-
-## API Gateway Overview
-
-![Gateway API](images/gatewayapi.png)
