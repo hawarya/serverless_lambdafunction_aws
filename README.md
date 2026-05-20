@@ -154,7 +154,9 @@ shortId (String)
 ---
 
 # 📸 Project Screenshots
-
+## Architecture Diagram
+![Architecture_Diagram](images/Architecture_Diagram.png)
+---
 ## API Gateway Overview
 
 ![API Gateway](images/gatewayapi.png)
